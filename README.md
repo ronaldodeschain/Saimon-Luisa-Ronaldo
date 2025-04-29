@@ -9,7 +9,7 @@ Saimon-Luisa-Ronaldo
 Adicionar:
 [X] Um arquivo README.md, descrevendo o projeto e listando estas etapas.  
 
-Um arquivo de licença (por exemplo, MIT License).
+[X] Um arquivo de licença (por exemplo, MIT License).
 
 [X] Um arquivo de código .por.
 
