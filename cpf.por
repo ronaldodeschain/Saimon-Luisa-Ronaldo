@@ -1,16 +1,54 @@
 programa {
   funcao inicio() {    
-    inteiro parte1,parte2,parte3,parte4
+    inteiro parte1,parte2,parte3,parte4,n1=0
 
-    escreva("digite a primeira parte do cpf: ")
-    leia(parte1)
-    escreva("digite a segunda parte do cpf: ")
-    leia(parte2)
-    escreva("digite a terceira parte do cpf: ")
-    leia(parte3)
-    escreva("digite os digitos verificadores do cpf: ")
-    leia(parte4)
-    escreva("O cpf que voce enviou é: ",parte1,".",parte2,".",parte3,"-",parte4)
+    para (inteiro i=0;i <=3;i++){
+      escreva("digite a parte 1\n")
+      leia(n1)
+      se(n1 > 0){
+        parte1 = n1
+        i++
+      }
+      senao{
+        escreva("valor invalido\n")
+        pare
+      }
+      n1 = 0
+      escreva("digite a parte 2\n")
+      leia(n1)
+      se(n1 > 0){
+        parte2 = n1
+        i++
+      }
+      senao{
+        escreva("valor invalido\n")
+        pare
+      }
+      n1 = 0
+      escreva("digite a parte 3\n")
+      leia(n1)
+      se(n1 > 0){
+        parte3 = n1
+        i++
+      }
+      senao{
+        escreva("valor invalido\n")
+        pare
+      }
+      n1 = 0
+      escreva("digite a parte 4\n")
+      leia(n1)
+      se(n1 > 0){
+        parte4 = n1
+        i++
+      }
+      senao{
+        escreva("valor invalido\n")
+        pare
+      }
+    }
+    limpa()
+    escreva(parte1,".",parte2,".",parte3,"-",parte4)    
     
   }
 }
