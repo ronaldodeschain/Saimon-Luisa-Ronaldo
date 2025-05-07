@@ -14,3 +14,6 @@ Adicionar:
 [X] Um arquivo de código .por.
 
 [X] Exibir um CPF usando o comando escreva.
+
+[X] Ler apenas valores maiores que zero.
+[X] Exibir o CPF formatado a partir dos valores lidos.
