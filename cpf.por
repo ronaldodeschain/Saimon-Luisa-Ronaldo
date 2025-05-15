@@ -1,4 +1,5 @@
 programa {
+  inclua biblioteca Tipos
   inclua biblioteca Texto
   funcao inicio() {
     // Leia um CPF completo do usuário.
@@ -11,21 +12,29 @@ programa {
       escreva("Digite um cpf valido: ")
       leia(cpf)   
       se(Texto.numero_caracteres(cpf) == 14){
-        escreva("voce digitou: ",cpf," e\n") 
-        //aqui valida se os caracteres separadores estão corretos
-        se(Texto.obter_caracter(cpf,3) != "." ou Texto.obter_caracter(cpf,7) != "." ou Texto.obter_caracter(cpf,11) != "-"){
-          escreva("o formato deve ser XXX.XXX.XXX-YY ou XXXXXXXXXYY\n")        
-        }senao{
-          //fecha o laço
-          valido = verdadeiro
-        }           
-      }senao se(Texto.numero_caracteres(cpf) == 11){       
-        //fecha o laço
-        valido = verdadeiro
-      }
-      senao{
-        escreva("cpf invalido!\n")
-      }
+        escreva("voce digitou: ",cpf,"\n") 
+        se(Texto.numero_caracteres(cpf)== 14){}
+        para(inteiro i =0;i<14;i++){
+          se(Tipos.cadeia_e_inteiro(Texto.obter_caracter(cpf,i),10) ou Texto.obter_caracter(cpf,i) == "."ou Texto.obter_caracter(cpf,i) == "-"){
+            valido = verdadeiro
+          }senao{
+            escreva("cpf invalido! \n")
+            valido = falso
+            pare
+          }
+        }        
+        }senao se(Texto.numero_caracteres(cpf) == 11){
+          para(inteiro i =0;i<11;i++){
+              se(Tipos.cadeia_e_inteiro(Texto.obter_caracter(cpf,i),10) ou Texto.obter_caracter(cpf,i) == "."ou Texto.obter_caracter(cpf,i) == "-"){
+                valido = verdadeiro
+              }senao{
+              escreva("cpf invalido! \n")
+              valido = falso
+              pare
+              }
+            }
+            
+        }
     }
     limpa()
     escreva("Seu cpf eh: ",cpf)
