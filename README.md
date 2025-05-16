@@ -1,6 +1,10 @@
 # TRABALHO TDS TURNO/NOITE 
 
-# Saimon-Luisa-Ronaldo
+[Saimon](https://github.com/SaimonCostaCamilo)
+
+[Luisa](https://github.com/luisabieniek)
+
+[Ronaldo](https://github.com/ronaldodeschain)
 
 
 ## Etapa 1
