@@ -18,8 +18,8 @@ Tarefas
  Adicionar: 
 - [X] Um arquivo README.md, descrevendo o projeto e listando estas etapas.
 - [X] Um arquivo de licença (por exemplo, MIT License).
-- [X] Um arquivo de código .por.
-- [X] Exibir um CPF usando o comando escreva.
+- [X] Um [arquivo](https://github.com/SaimonCostaCamilo/Projeto-Verificador-de-CPF/blob/main/cpf.por) de código .por.     
+- [X] Exibir um CPF usando o comando escreva. 
 ## Etapa 2
 Armazenar e exibir o CPF formatado utilizando variáveis.
 
