@@ -60,3 +60,7 @@ Receba um CPF completo e valide ele.
 Tarefas:
 - [X] Leia um CPF completo do usuário.
 - [X] Valide para que o CPF esteja nos formatos XXX.XXX.XXX-YY ou XXXXXXXXXYY.
+
+## Etapa 7 
+
+
