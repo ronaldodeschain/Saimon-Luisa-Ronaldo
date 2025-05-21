@@ -62,5 +62,19 @@ Tarefas:
 - [X] Valide para que o CPF esteja nos formatos XXX.XXX.XXX-YY ou XXXXXXXXXYY.
 
 ## Etapa 7 
+Objetivos
+Calcular e encontrar o Primeiro Dígito Verificador - PDV.
+
+Tarefas
+- [X] Receba um CPF válido do usuário (formatos suportados XXX.XXX.XXX-YY ou XXXXXXXXXYY).
+- [X] Se o formato não for válido, encerre o programa.
+- [X] Calcule o [Primeiro Dígito Verificador](https://github.com/ronaldodeschain/tds-senac-tech/blob/main/uc2-desenvolver-algoritmos/avaliacao.md#c%C3%A1lculo-do-primeiro-d%C3%ADgito) conforme especificado.
+      
+Ao final, mostre :
+
+- [X] O CPF conforme foi digitado;
+- [X] O Primeiro Dígito Verificador encontrado;
+- [X] O resultado da comparação do PDV encontrado com o PDV do CPF digitado;
+- [X] A atualização do código tem que ser feito por um integrante que ainda não realizou um [Pull Request](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork);
 
 
