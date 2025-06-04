@@ -77,4 +77,23 @@ Ao final, mostre :
 - [X] O resultado da comparação do PDV encontrado com o PDV do CPF digitado;
 - [X] A atualização do código tem que ser feito por um integrante que ainda não realizou um [Pull Request](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork);
 
+## Etapa 8: Dígito 2
+Objetivos
+Calcular e encontrar o Segundo Dígito Verificador - SDV.
+
+Tarefas
+- [X] Receba um CPF válido do usuário (formatos suportados XXX.XXX.XXX-YY ou XXXXXXXXXYY).
+- [X] Se o formato não for válido, encerre o programa.
+- [X] Calcule o Primeiro Dígito Verificador conforme especificado.
+- [X] Calcule o Segundo Dígito Verificador conforme especificado.
+      
+Ao final, mostre :
+
+- [X] O CPF conforme foi digitado;
+- [X] O Primeiro Dígito Verificador encontrado;
+- [X] O Segundo Dígito Verificador encontrado;
+- [X] O resultado da comparação do PDV encontrado com o PDV do CPF digitado;
+- [X] O resultado da comparação do SDV encontrado com o SDV do CPF digitado;
+- [X] Uma mensagem informando se o CPF é válido ou não;
+
 
