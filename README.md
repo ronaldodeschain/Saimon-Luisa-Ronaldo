@@ -96,4 +96,10 @@ Ao final, mostre :
 - [X] O resultado da comparação do SDV encontrado com o SDV do CPF digitado;
 - [X] Uma mensagem informando se o CPF é válido ou não;
 
+## Etapa 9: Converter para Python
+Objetivos
+A partir do código original, recriem ele usando o Python.
+
+Tarefas
+- [X] Recriar o código, a partir do original, em Python;
 
