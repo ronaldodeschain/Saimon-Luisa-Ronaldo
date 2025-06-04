@@ -34,7 +34,7 @@ programa {
 
     cadeia cpf     
     inteiro novo_cpf[14]
-    inteiro soma=0,contador=0,resultado=0,j=0
+    inteiro soma=0,contador_1=0,contador_2 = 0,resultado_1=0,resultado_2=0,j=0
     //entrada de dados
     escreva("digite um cpf para validar: \n")
     leia(cpf)
@@ -61,15 +61,31 @@ programa {
       }
     //validando se o primeiro digito está correto
       para(inteiro i = 10;i >= 2;i--){
-        soma = soma + (novo_cpf[contador]*i)    
-        contador += 1
+        soma = soma + (novo_cpf[contador_1]*i)    
+        contador_1 += 1
      }
-        resultado = soma*10 %11
-        escreva("primeiro digito verificador é: ",resultado,"\n")
+        resultado_1
+   = soma*10 %11
+        escreva("primeiro digito verificador é: ",resultado_1
+  ,"\n")
         escreva("e o que voce enviou foi: ",novo_cpf[9],"\n")
-        escreva(resultado == novo_cpf[9],"\n")
-
-
+        //escreva(resultado_1 == novo_cpf[9],"\n")
+   //resetar a variavel
+    soma = 0
+    //validando se o segundo digito está correto
+    para (inteiro i = 11;i >2;i--){
+        soma = soma +(novo_cpf[contador_2]*i)
+        contador_2 +=1
+    }
+      resultado_2 = soma*10 %11
+      escreva("segundo digito verificador é: ",resultado_2,"\n")
+      escreva("e o que voce enviou foi: ",novo_cpf[10],"\n")
+      //escreva(resultado_2 == novo_cpf[10],"\n")
+      se(resultado_1 == novo_cpf[9] e resultado_2 == novo_cpf[10]){
+        escreva("cpf enviado é válido")
+      }senao{
+        escreva("cpf enviado não é valido!")
+      }
     //aqui a gente finaliza o programa se não entrar no laço de validação do cpf
     }senao{
       escreva("cpf inválido!\n")
