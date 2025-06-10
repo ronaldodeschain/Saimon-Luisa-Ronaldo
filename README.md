@@ -1,12 +1,5 @@
 # TRABALHO TDS TURNO/NOITE 
 
-[Saimon](https://github.com/SaimonCostaCamilo)
-
-[Luisa](https://github.com/luisabieniek)
-
-[Ronaldo](https://github.com/ronaldodeschain)
-
-
 ## Etapa 1
 Objetivo
 Configurar o ambiente de trabalho no GitHub e realizar a primeira exibição de um CPF no programa.
